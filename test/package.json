@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "cordova-browser": "=3.5.0",
+    "cordova-plugin-device": "=0.2.1",
+    "phonegap-plugin-push": "^1.8.1"
+  },
+  "devDependencies": {
+    "cordova": "latest",
+    "cordova-hook-link-plugins": ".."
+  },
+  "private": true
+}

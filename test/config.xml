@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <engine name="browser" spec="./node_modules/cordova-browser" />
+    <plugin name="org.apache.cordova.core.device" spec="./node_modules/cordova-plugin-device" />
+    <plugin name="phonegap-plugin-push" spec="./node_modules/phonegap-plugin-push">
+        <variable name="SENDER_ID" value="XXXXXXX" />
+    </plugin>
+    <hook src="./node_modules/cordova-hook-link-plugins/index.js" type="before_platform_add" />
+</widget>
