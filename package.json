@@ -14,5 +14,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/robario/cordova-hook-link-plugins.git"
+  },
+  "dependencies": {
+    "xml2js": "^0.4.17"
   }
 }
