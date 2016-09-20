@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "cordova-browser": {
+      "version": "3.5.0",
+      "from": "cordova-browser@3.5.0",
+      "resolved": "https://registry.npmjs.org/cordova-browser/-/cordova-browser-3.5.0.tgz",
+      "dependencies": {
+        "shelljs": {
+          "version": "0.1.4",
+          "from": "shelljs@>=0.1.4 <0.2.0",
+          "resolved": "https://registry.npmjs.org/shelljs/-/shelljs-0.1.4.tgz"
+        },
+        "adm-zip": {
+          "version": "0.4.4",
+          "from": "adm-zip@0.4.4",
+          "resolved": "https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz"
+        },
+        "open": {
+          "version": "0.0.5",
+          "from": "open@>=0.0.0 <0.1.0",
+          "resolved": "https://registry.npmjs.org/open/-/open-0.0.5.tgz"
+        }
+      }
+    },
+    "cordova-plugin-device": {
+      "version": "0.2.1",
+      "from": "cordova-plugin-device@0.2.1",
+      "resolved": "https://registry.npmjs.org/cordova-plugin-device/-/cordova-plugin-device-0.2.1.tgz"
+    },
+    "phonegap-plugin-push": {
+      "version": "1.8.1",
+      "from": "phonegap-plugin-push@latest",
+      "resolved": "https://registry.npmjs.org/phonegap-plugin-push/-/phonegap-plugin-push-1.8.1.tgz"
+    }
+  }
+}
