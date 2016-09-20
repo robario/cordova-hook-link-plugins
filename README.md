@@ -31,7 +31,7 @@ In `config.xml`, put the installed path into plugin spec.
 
 ```xml
 <!-- config.xml -->
-<plugin name="cordova-plugin-device" spec="./node_modules/cordova-plugin-device" />
+<plugin name="org.apache.cordova.core.device" spec="./node_modules/cordova-plugin-device" />
 ```
 
 Once `before_platform_add` runs, there are symbolic links in the plugins folder.
